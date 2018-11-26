@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="GitHub上的操作 在GitHub上创建仓库复制仓库地址  Git上的操作 1.点击上传文件，打开git命令行2.在命令行输入”git init”,使文件加入git管理3.输入”git add .”(不要漏了”.”),将文件夹下面4.输入 git commit -m “提交信息”5.输入“git remote add origin (将复制的仓库地址填粘贴此处），连接你的guthub仓库。6.输">
+<meta name="description" content="GitHub上的操作 在GitHub上创建仓库复制仓库地址  Git上的操作 1.点击上传文件，打开git命令行2.在命令行输入”git init”,使文件加入git管理3.输入git add .(不要漏了”.”),将文件夹下面4.输入git commit -m “提交信息”5.输入git remote add origin (将复制的仓库地址填粘贴此处），连接你的guthub仓库。  在进行这一">
 <meta name="keywords" content="GitHub,导航">
 <meta property="og:type" content="article">
 <meta property="og:title" content="上传本地代码到GitHub">
 <meta property="og:url" content="http://yoursite.com/2018/11/24/上传本地代码到GitHub/index.html">
 <meta property="og:site_name" content="Cheng的博客">
-<meta property="og:description" content="GitHub上的操作 在GitHub上创建仓库复制仓库地址  Git上的操作 1.点击上传文件，打开git命令行2.在命令行输入”git init”,使文件加入git管理3.输入”git add .”(不要漏了”.”),将文件夹下面4.输入 git commit -m “提交信息”5.输入“git remote add origin (将复制的仓库地址填粘贴此处），连接你的guthub仓库。6.输">
+<meta property="og:description" content="GitHub上的操作 在GitHub上创建仓库复制仓库地址  Git上的操作 1.点击上传文件，打开git命令行2.在命令行输入”git init”,使文件加入git管理3.输入git add .(不要漏了”.”),将文件夹下面4.输入git commit -m “提交信息”5.输入git remote add origin (将复制的仓库地址填粘贴此处），连接你的guthub仓库。  在进行这一">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-11-24T14:50:15.342Z">
+<meta property="og:updated_time" content="2018-11-26T13:35:39.910Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="上传本地代码到GitHub">
-<meta name="twitter:description" content="GitHub上的操作 在GitHub上创建仓库复制仓库地址  Git上的操作 1.点击上传文件，打开git命令行2.在命令行输入”git init”,使文件加入git管理3.输入”git add .”(不要漏了”.”),将文件夹下面4.输入 git commit -m “提交信息”5.输入“git remote add origin (将复制的仓库地址填粘贴此处），连接你的guthub仓库。6.输">
+<meta name="twitter:description" content="GitHub上的操作 在GitHub上创建仓库复制仓库地址  Git上的操作 1.点击上传文件，打开git命令行2.在命令行输入”git init”,使文件加入git管理3.输入git add .(不要漏了”.”),将文件夹下面4.输入git commit -m “提交信息”5.输入git remote add origin (将复制的仓库地址填粘贴此处），连接你的guthub仓库。  在进行这一">
 
 
 
@@ -347,7 +347,7 @@
 <p>在GitHub上创建仓库<br>复制仓库地址</p>
 </blockquote>
 <h2 id="Git上的操作"><a href="#Git上的操作" class="headerlink" title="Git上的操作"></a>Git上的操作</h2><blockquote>
-<p>1.点击上传文件，打开git命令行<br>2.在命令行输入”git init”,使文件加入git管理<br>3.输入”git add .”(不要漏了”.”),将文件夹下面<br>4.输入 git commit -m “提交信息”<br>5.输入“git remote add origin (将复制的仓库地址填粘贴此处），连接你的guthub仓库。<br>6.输入“git push -u origin master”，上传项目到Github。这里会要求输入Github的账号密码，按要求输入就可以。</p>
+<p>1.点击上传文件，打开git命令行<br>2.在命令行输入”git init”,使文件加入git管理<br>3.输入<kbd>git add .</kbd>(不要漏了”.”),将文件夹下面<br>4.输入<kbd>git commit -m “提交信息”</kbd><br>5.输入<kbd>git remote add origin (将复制的仓库地址填粘贴此处）</kbd>，连接你的guthub仓库。<br>  在进行这一步时可能会出错，信息如下<br> <font color="red">error: failed to push some refs to ‘<a href="https://github.com/cheng132/ssh-crm.git&#39;" target="_blank" rel="noopener">https://github.com/cheng132/ssh-crm.git&#39;</a></font><br>  出现错误的主要原因是github中的README.md文件不在本地代码目录中<br>  可以通过如下命令进行代码合并【注：pull=fetch+merge]<br>  <kbd>git pull –rebase origin master</kbd><br>  执行上面代码后可以看到本地代码库中多了README.md文件<br>6.输入<kbd>git push -u origin master</kbd>，上传项目到Github。这里会要求输入Github的账号密码，按要求输入就可以。</p>
 </blockquote>
 
       
@@ -479,7 +479,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -490,7 +490,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
